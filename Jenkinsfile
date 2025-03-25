@@ -53,4 +53,5 @@ pipeline {
 		failure {
 			echo 'Build&Deploy failed. Check logs.'
 		}
+	    }
 	}
