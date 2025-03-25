@@ -10,7 +10,7 @@ pipeline {
 	stages {
 		stage('Checkout Github'){
 			steps {
-				git branch: 'main', credentialsId: 'jen-doc-git', url: 'https://github.com/iQuantC/NodeApp.git'
+				git branch: 'main', url: 'https://github.com/ninadkharol/NodeApp.git'
 			}
 		}		
 		stage('Install node dependencies'){
